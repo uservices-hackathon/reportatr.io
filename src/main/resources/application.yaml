@@ -1,0 +1,9 @@
+spring.application.name: reportatr
+metrics.path.app: reportatr
+
+stubrunner:
+  #skip-local-repo: false
+  #work-offline: true
+  use-microservice-definitions: true
+  stubs:
+    repository.root: "http://nexus.uservices.pl:8081/nexus/content/repositories/releases/"
